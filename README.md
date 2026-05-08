@@ -3,19 +3,23 @@
 Project ini berisi implementasi peringkasan teks artikel berita secara ekstraktif menggunakan pendekatan TextRank dan pemrosesan teks berbasis Python.
 
 ## Fitur
-- Preprocessing teks artikel
-- Tokenisasi kalimat
-- Perhitungan kemiripan antar kalimat
+- Input teks artikel melalui aplikasi Streamlit
+- Preprocessing teks
+- Tokenisasi kalimat dan kata
+- Stopword removal dan stemming bahasa Indonesia
+- Perhitungan kemiripan antar kalimat menggunakan cosine similarity
 - Pembentukan graf kalimat
-- Pemeringkatan kalimat menggunakan centrality
-- Pemilihan kalimat utama sebagai hasil ringkasan
+- Pemeringkatan kalimat menggunakan TextRank
+- Pemilihan kalimat penting sebagai hasil ringkasan
 
 ## Teknologi
 - Python
+- Streamlit
 - NLTK
-- pandas
-- NumPy
+- Sastrawi
 - NetworkX
+- scikit-learn
+- Matplotlib
 
 ## Status Project
 Repository ini berisi implementasi utama untuk proses peringkasan teks. Versi antarmuka berbasis Streamlit sedang dikembangkan dan akan ditambahkan pada update berikutnya.
